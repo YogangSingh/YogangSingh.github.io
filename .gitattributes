@@ -3,3 +3,4 @@ MultiUSV_Trim.mp4 filter=lfs diff=lfs merge=lfs -text
 H2H[[:space:]]Trim[[:space:]]Video.mp4 filter=lfs diff=lfs merge=lfs -text
 MultiUSV_Trim_New.mp4 filter=lfs diff=lfs merge=lfs -text
 MultiUSV_Trim_New.ogg filter=lfs diff=lfs merge=lfs -text
+MultiUSV_Trim_MP4.mp4 filter=lfs diff=lfs merge=lfs -text
