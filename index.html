@@ -164,6 +164,11 @@
                               <video  controls >
                                <source src="MultiUSV_Trim_MP4.mp4" type="video/mp4">
                                </video>
+                            if (window.chrome) {
+                                            $("[type=video\\\/mp4]").each(function () {
+                                                $(this).attr('src', $(this).attr('src').replace(".mp4", "_c.mp4"));
+                                            });
+                                        }
                                <br> </br>
                           <u><b> With Cross Continental Interdisciplinary Academic Advisory Groups </b></u>
                            <li> <i> 2019 </i>: <b> International Applied Research Project (USA): Purdue-UNSA Robotic Water Quality Monitoring and Distribution Systems</b> <br> </br>
