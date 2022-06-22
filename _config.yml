@@ -1,8 +1,1 @@
 theme: jekyll-theme-slate
-<configuration>  
-    <system .webServer>  
-        <staticcontent>  
-            <mimemap fileExtension=".mp4" mimeType="video/mp4"></mimemap>  
-        </staticcontent>  
-    </system>  
-</configuration>  
