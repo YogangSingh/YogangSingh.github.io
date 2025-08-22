@@ -800,6 +800,240 @@ Assessment and Process Optimization of Rice Milling using Artificial Intelligenc
                    <br> Role: Open Day Coordinator for UG and PG Program- Robotics & Control Lab </br>
                     <br> Role: Rapporteur - 1 PhD Student </br>
                  </section>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prospective Students/Researchers — Seyed Amir Tafrishi</title>
+  <meta name="description" content="Guidelines and expectations for prospective undergraduate, MSc, PhD and Postdoctoral applicants interested in robotics and control." />
+  <style>
+    :root {
+      --bg: #0f172a;          /* slate-900 */
+      --panel: #111827;       /* gray-900 */
+      --card: #0b1220;        /* deep blue */
+      --muted: #94a3b8;       /* slate-400 */
+      --text: #e5e7eb;        /* gray-200 */
+      --brand: #38bdf8;       /* sky-400 */
+      --accent: #22d3ee;      /* cyan-400 */
+      --ring: rgba(56,189,248,.35);
+      --success: #34d399;     /* green-400 */
+      --warning: #fbbf24;     /* amber-400 */
+      --danger: #f87171;      /* red-400 */
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --panel: #ffffff;
+        --card: #ffffff;
+        --muted: #475569;
+        --text: #0f172a;
+        --brand: #0ea5e9;
+        --accent: #06b6d4;
+        --ring: rgba(14,165,233,.25);
+      }
+      .nav a:hover { background: #e0f2fe; }
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0; font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text); background: radial-gradient(1200px 800px at 10% -10%, rgba(56,189,248,.08), transparent 40%),
+                         radial-gradient(1000px 700px at 110% 10%, rgba(34,211,238,.08), transparent 40%),
+                         var(--bg);
+    }
+
+    /* Header */
+    .header {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: blur(8px);
+      background: color-mix(in oklab, var(--bg) 80%, transparent);
+      border-bottom: 1px solid color-mix(in oklab, var(--muted) 20%, transparent);
+    }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 1rem 1.25rem; }
+    .brand { display: flex; align-items: center; gap: .75rem; }
+    .brand .logo {
+      width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center;
+      background: linear-gradient(135deg, var(--brand), var(--accent)); color: #001018; font-weight: 900;
+      box-shadow: 0 8px 30px rgba(34,211,238,.25), inset 0 0 0 1px rgba(255,255,255,.25);
+    }
+    .brand h1 { font-size: 1rem; line-height: 1.1; margin: 0; letter-spacing: .2px; }
+
+    .nav { display: grid; grid-auto-flow: column; gap: .25rem; justify-content: start; align-items: center; margin-top: .75rem; overflow-x: auto; }
+    .nav a { text-decoration: none; color: var(--text); font-weight: 600; padding: .5rem .75rem; border-radius: .75rem; border: 1px solid transparent; }
+    .nav a[aria-current="page"] { color: #0b1220; background: linear-gradient(135deg, var(--brand), var(--accent)); }
+    .nav a:not([aria-current]):hover { border-color: color-mix(in oklab, var(--brand) 50%, transparent); }
+
+    /* Hero */
+    .hero { padding: 2.5rem 1.25rem 1rem; }
+    .hero .title { font-size: clamp(1.5rem, 2.4vw + 1rem, 2.25rem); margin: 0 0 .5rem; }
+    .hero .kicker { color: var(--muted); margin: 0; }
+
+    /* Layout */
+    .grid { display: grid; grid-template-columns: 280px 1fr; gap: 1.25rem; align-items: start; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+
+    /* TOC */
+    .toc { position: sticky; top: 84px; background: var(--panel); border: 1px solid color-mix(in oklab, var(--muted) 22%, transparent); border-radius: 1rem; padding: 1rem; }
+    .toc h3 { margin: 0 0 .5rem; font-size: .95rem; letter-spacing: .2px; color: var(--muted); }
+    .toc a { display: block; text-decoration: none; color: var(--text); padding: .35rem .5rem; border-radius: .5rem; }
+    .toc a:hover { background: color-mix(in oklab, var(--brand) 12%, transparent); }
+
+    /* Content */
+    main { display: grid; gap: 1.25rem; }
+    section.card { background: var(--panel); border: 1px solid color-mix(in oklab, var(--muted) 22%, transparent); border-radius: 1rem; padding: clamp(1rem, 1.2vw + .75rem, 1.5rem); box-shadow: 0 10px 30px rgba(2,8,23,.25); }
+    .card h2 { margin-top: 0; font-size: 1.35rem; }
+    .eyebrow { font-size: .75rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin-bottom: .75rem; }
+
+    .note { padding: .75rem .9rem; border-left: 3px solid var(--brand); background: color-mix(in oklab, var(--brand) 10%, transparent); border-radius: .5rem; }
+    .list { margin: .75rem 0; padding-left: 1.1rem; }
+
+    details { background: color-mix(in oklab, var(--brand) 6%, transparent); border: 1px dashed color-mix(in oklab, var(--brand) 45%, transparent); border-radius: .75rem; padding: .75rem .9rem; }
+    details > summary { cursor: pointer; font-weight: 700; }
+    details + details { margin-top: .75rem; }
+
+    .badge { display: inline-flex; align-items: center; gap: .35rem; padding: .15rem .5rem; border-radius: 999px; font-size: .75rem; border: 1px solid color-mix(in oklab, var(--muted) 30%, transparent); background: color-mix(in oklab, var(--muted) 10%, transparent); color: var(--text); }
+
+    .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1rem; }
+    @media (max-width: 700px) { .grid-2 { grid-template-columns: 1fr; } }
+
+    .footer { text-align: center; color: var(--muted); padding: 2rem 1rem 3rem; }
+    .pill { display: inline-block; padding: .2rem .6rem; border-radius: .6rem; background: color-mix(in oklab, var(--success) 22%, transparent); border: 1px solid color-mix(in oklab, var(--success) 40%, transparent); font-size: .75rem; margin-left: .35rem; }
+
+    .kbd { font: 600 .8rem/1.1 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; border: 1px solid color-mix(in oklab, var(--muted) 35%, transparent); background: color-mix(in oklab, var(--muted) 10%, transparent); padding: .15rem .35rem; border-radius: .35rem; }
+
+    a { color: var(--brand); }
+    a:hover { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="wrap">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">ΣA</div>
+        <h1>Seyed Amir Tafrishi</h1>
+      </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="#" title="Home">Home</a>
+        <a href="#" title="About">About Me</a>
+        <a href="#" title="News">News</a>
+        <a href="#" title="Research">Research</a>
+        <a href="#" title="gm²R Team">gm²R Team</a>
+        <a href="#" title="Publications">Publications</a>
+        <a href="#top" aria-current="page" title="Prospective Students">Prospective Students</a>
+        <a href="#" title="Contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrap hero" id="top">
+    <h2 class="title">Prospective Students/Researchers</h2>
+    <p class="kicker">Please read this page carefully before getting in touch. It sets expectations and streamlines communication for BEng/MSc, PhD, and Postdoctoral enquiries.</p>
+  </div>
+
+  <div class="wrap grid">
+    <aside class="toc" aria-label="On this page">
+      <h3>Contents</h3>
+      <a href="#eligibility">Eligibility</a>
+      <a href="#expectations">Core Expectations</a>
+      <a href="#positions">Positions & Availabilities</a>
+      <a href="#phd-postdoc">PhD & Postdoctoral Paths</a>
+      <a href="#beng-msc">BEng/MSc Students</a>
+      <a href="#email">How to Email & Selection</a>
+      <a href="#scholarships">Other Scholarships</a>
+    </aside>
+
+    <main>
+      <section id="eligibility" class="card">
+        <div class="eyebrow">▓ Eligibility ▓</div>
+        <h2>Before You Reach Out</h2>
+        <p>First, thank you for your interest. It is always wonderful to hear from passionate learners in robotics. However, I receive many emails each year seeking supervision. This guide helps streamline the process for both undergraduate and postgraduate students. Please read it carefully <em>before</em> contacting me.</p>
+        <p>In academia, we maintain standards for prospective students—particularly for PhD and Postdoctoral positions. This page clarifies those expectations and reduces wasted time for everyone.</p>
+      </section>
+
+      <section id="expectations" class="card">
+        <div class="eyebrow">ᏒᎧᏰᎧᏆᏨᏕ — Core Expectations</div>
+        <h2>What I Look For</h2>
+        <div class="grid-2">
+          <div>
+            <h3>🤖 Passion &amp; Curiosity for Robotics</h3>
+            <p>Robotics is challenging and multidisciplinary—far beyond what highlight reels suggest. A deep, genuine interest is essential. I recommend watching talks by leaders such as <a href="https://en.wikipedia.org/wiki/Jean-Paul_Laumond" target="_blank" rel="noopener">Jean‑Paul Laumond</a>, <a href="https://en.wikipedia.org/wiki/Marc_Raibert" target="_blank" rel="noopener">Marc Raibert</a>, and <a href="https://www.epfl.ch/labs/reconfigurable/" target="_blank" rel="noopener">Jamie Paik</a>, as well as lectures from <a href="https://www.cmu.edu/robotics/" target="_blank" rel="noopener">CMU</a>.</p>
+          </div>
+          <div>
+            <h3>🤖 Strong Mathematics Foundation</h3>
+            <p>Robotics intersects with control theory, mechanics, electronics, mechatronics, and materials. Be ready for substantial mathematics. Remember: AI is only one component of robotics. <span class="badge" title="Mind-map resources">resources</span></p>
+            <ul class="list">
+              <li><a href="https://www.gogeometry.com/robotics/branches_of_robotics_mind_map.html" target="_blank" rel="noopener">Branches of Robotics (mind map)</a></li>
+              <li><a href="https://engineeringmedia.com/map-of-control" target="_blank" rel="noopener">Map of Control (systems &amp; control)</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid-2">
+          <div>
+            <h3>🤖 Be a Reader, Not Just a Follower</h3>
+            <p>Review my recent research to understand <em>specific</em> topics I’m pursuing. Avoid vague statements like “AI” or “Robotics.” Instead, identify concrete areas and demonstrate engagement with the literature.</p>
+            <div class="note"><strong>Examples of current interests</strong>
+              <ul class="list">
+                <li>Design, motion planning & control of compliant actuators</li>
+                <li>Geometric shape‑transforming (origami‑based) robotics</li>
+                <li>Advanced locomotion mechanisms for mobile robots</li>
+                <li>Planning & control for dynamic, nonprehensile & hybrid manipulation</li>
+                <li>Agile grasping mechanisms (rolling‑contact planning)</li>
+                <li>Reconfigurable rolling robots: design & motion planning</li>
+                <li>Energy‑based control for underactuated systems</li>
+                <li>Human–robot interaction strategies for assistance</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <h3>🤖 Build a Relevant CV</h3>
+            <p>Engage with robotics: conferences, competitions, open‑source, blogs. Ensure your CV highlights robotics/control keywords, projects, and skills (mechanics/solid modelling, control, coding). Applications without relevant evidence are unlikely to proceed.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="positions" class="card">
+        <div class="eyebrow">▓ Positions &amp; Availabilities ▓</div>
+        <h2>PhD / Postdoctoral / Taught Degrees</h2>
+        <h3>Called Positions</h3>
+        <p>Official opportunities (fully‑funded or self‑funded) are posted on platforms such as <a href="https://www.findaphd.com/" target="_blank" rel="noopener">FindAPhD</a> and <a href="https://www.jobs.ac.uk/" target="_blank" rel="noopener">jobs.ac.uk</a>. If you are self‑funded or hold external funding, follow the email & selection guidance below.</p>
+
+        <h3>Other Funding Options</h3>
+        <details>
+          <summary>Governmental / External Scholarships</summary>
+          <p>If you intend to apply for an external scholarship and require a recommendation/conditional offer, you must first follow the application guidance on this page. Upon passing the initial evaluation, I can support your funding application.</p>
+        </details>
+        <details>
+          <summary>Cardiff University Funding</summary>
+          <p>Explore the <a href="https://www.cardiff.ac.uk/study/postgraduate/funding" target="_blank" rel="noopener">Cardiff University scholarships</a>, including awards targeted by nationality.</p>
+        </details>
+        <details>
+          <summary>Health &amp; Care Research PhD Fellowship</summary>
+          <p>Third‑party fellowships may require early contact (before October) and submission by Nov/Dec (typical deadline: <span class="kbd">November</span>).</p>
+        </details>
+        <details>
+          <summary>Commonwealth PhD Scholarships (Least‑Developed Countries)</summary>
+          <p>See the Commonwealth PhD Scholarships and Cardiff guidance. Typical deadlines: <span class="kbd">Aug/Sep</span>. Eligible countries include:</p>
+          <p class="note" style="margin-top:.5rem;">
+            Bangladesh, Cameroon, The Gambia, Kenya, Kiribati, Lesotho, Malawi, Mozambique, Nigeria, Pakistan, Rwanda, Sierra Leone, Solomon Islands, Sri Lanka, Tanzania, Togo, Tuvalu, Uganda, Zambia.
+          </p>
+        </details>
+        <details>
+          <summary>King’s Commonwealth Fellowship Programme (ACU)</summary>
+          <p>Staff members of ACU may pursue PhDs via King’s/ACU schemes. Check the programme page for details.</p>
+        </details>
+      </section>
+
+      <section id="phd-postdoc" class="card">
+        <div class="eyebrow">PhD &amp; Postdoctoral Paths</div>
+        <h2>Routes by Region / Scheme</h2>
+        <div class="grid-2">
+          <div>
+            <h3>Chinese Applicants</h3>
+            <details open>
+              <summary>CSC Scholarship</summary>
+              <p>For the CSC (Chinese Scholarship Council) route, please ensure:</p>
    </section>
                 <section class="main-section" id="Research Groups Affiliation">
                     <h3 style = "background: black; color: white">Research Groups Affiliation</h3>
